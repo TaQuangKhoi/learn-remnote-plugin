@@ -35,9 +35,22 @@ async function onActivate(plugin: ReactRNPlugin) {
   await plugin.app.toast("Mới thay đổi code nè :v");
 
   // Register a sidebar widget.
-  await plugin.app.registerWidget('sample_widget', WidgetLocation.RightSidebar, {
+  await plugin.app.registerWidget(
+    'widget_mau',
+    WidgetLocation.RightSidebar, {
     dimensions: { height: 'auto', width: '100%' },
   });
+
+  await plugin.app.registerWidget(
+    'my_widget',
+    WidgetLocation.RightSidebar,
+    {
+      dimensions: {
+        height: 'auto',
+        width: 350,
+      },
+    },
+  );
 }
 
 async function onDeactivate(_: ReactRNPlugin) {}

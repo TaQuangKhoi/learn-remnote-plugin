@@ -1,7 +1,7 @@
 {
   "manifestVersion": 1,
-  "id": "plugin_template",
-  "name": "Plugin Template",
+  "id": "learn_plugin_remnote",
+  "name": "Learn to code a Plugin in RemNote",
   "author": "remnote",
   "repoUrl": "",
   "version": {
