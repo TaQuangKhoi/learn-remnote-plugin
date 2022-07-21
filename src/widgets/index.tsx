@@ -19,7 +19,7 @@ async function onActivate(plugin: ReactRNPlugin) {
   await plugin.settings.registerNumberSetting({
     id: 'favorite-number',
     title: 'What is your favorite number?',
-    defaultValue: 42,
+    defaultValue: 42, // Is it the number of 
   });
 
   // A command that inserts text into the editor if focused.
@@ -32,7 +32,7 @@ async function onActivate(plugin: ReactRNPlugin) {
   });
 
   // Show a toast notification to the user.
-  await plugin.app.toast("I'm a toast!");
+  await plugin.app.toast("Mới thay đổi code nè :v");
 
   // Register a sidebar widget.
   await plugin.app.registerWidget('sample_widget', WidgetLocation.RightSidebar, {

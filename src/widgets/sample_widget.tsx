@@ -9,7 +9,7 @@ export const SampleWidget = () => {
 
   return (
     <div className="p-2 m-2 rounded-lg rn-clr-background-light-positive rn-clr-content-positive">
-      <h1 className="text-xl">Sample Plugin</h1>
+      <h1 className="text-xl">Học viết Plugin trong RemNote</h1>
       <div>
         Hi {name}, you {!!likesPizza ? 'do' : "don't"} like pizza and your favorite number is{' '}
         {favoriteNumber}!
