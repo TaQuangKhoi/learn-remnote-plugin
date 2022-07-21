@@ -1,9 +1,11 @@
 import { renderWidget } from '@remnote/plugin-sdk';
 
-function MyWidget() {
+export const MyWidget = () => {
   return (
-  <p>My Widget</p>
+    <div>
+      My Widget
+    </div>
   );
-}
+};
 
 renderWidget(MyWidget);

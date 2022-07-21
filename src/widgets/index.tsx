@@ -36,7 +36,7 @@ async function onActivate(plugin: ReactRNPlugin) {
 
   // Register a sidebar widget.
   await plugin.app.registerWidget(
-    'widget_mau',
+    'sample_widget',
     WidgetLocation.RightSidebar, {
     dimensions: { height: 'auto', width: '100%' },
   });
@@ -47,7 +47,7 @@ async function onActivate(plugin: ReactRNPlugin) {
     {
       dimensions: {
         height: 'auto',
-        width: 350,
+        width: '100%'
       },
     },
   );
