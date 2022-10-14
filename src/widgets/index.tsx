@@ -35,11 +35,8 @@ async function onActivate(plugin: ReactRNPlugin) {
   await plugin.app.toast("Mới thay đổi code nè :v");
 
   // Register a sidebar widget.
-  await plugin.app.registerWidget(
-    'sample_widget',
-    WidgetLocation.RightSidebar, {
-    dimensions: { height: 'auto', width: '100%' },
-  });
+  
+  
 
   await plugin.app.registerWidget(
     'my_widget',
