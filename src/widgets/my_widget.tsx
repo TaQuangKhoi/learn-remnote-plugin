@@ -1,4 +1,4 @@
-import { renderWidget } from '@remnote/plugin-sdk';
+import { usePlugin, renderWidget } from '@remnote/plugin-sdk';
 
 export const MyWidget = () => {
   return (
